@@ -112,6 +112,7 @@ d$       # delete (cut) to the end of the line
 d^       # delete (cut) to the first non-blank character of the line
 d0       # delete (cut) to the begining of the line
 x        # delete (cut) character
+daw      # deleth word under the cursor
 ```
 
 ## Search and replace
