@@ -102,6 +102,8 @@ yy       # yank (copy) a line
 2yy      # yank (copy) 2 lines
 yw       # yank (copy) the characters of the word from the cursor position to the start of the next word
 y$       # yank (copy) to end of line
+yG       # yank (copy) to the end of file
+81,91y   # yank (copy) line range from 81 to 91
 p        # put (paste) the clipboard after cursor
 P        # put (paste) before cursor
 dd       # delete (cut) a line
@@ -111,6 +113,8 @@ D        # delete (cut) to the end of the line
 d$       # delete (cut) to the end of the line
 d^       # delete (cut) to the first non-blank character of the line
 d0       # delete (cut) to the begining of the line
+dG       # delete (cut) to the end of file
+81,91d  # delete (cut) line range from 81 to 91
 x        # delete (cut) character
 daw      # deleth word under the cursor
 ```
